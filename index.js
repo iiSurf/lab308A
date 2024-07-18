@@ -79,22 +79,31 @@ initialLoad();
    * - Add a call to this function to the end of your initialLoad function above to create the initial carousel.
    */
 
-  async function breedSelectInfo(breedId) {
-    try {
-      const apiUrl = ''; // TODO: add url
-      const response = await fetch(apiUrl, {
-        headers: {
-          "x-api-key": API_KEY,
-        },
-      });
-      
-    } catch (err) {
-      console.error(err);
-    }
-    
-  }
+  // async function breedSelectInfo(breedId) {
+  //   try {
+  //     const apiUrl = ''; // TODO: add url
+  //     const response = await fetch(apiUrl, {
+  //       headers: {
+  //         "x-api-key": API_KEY,
+  //       },
+  //     });
 
-  // breedSelect.addEventListener()
+  //     if (!response.ok) {
+  //       throw new Error('ERAWR, can not get selected breed at this time.')
+  //     }
+      
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+    
+  // }
+
+  // function breedInfo(breed) {
+  //   <h4>${breed.name}</h4>
+  //   <h5>${breed.description}</h5>
+  // }
+
+  // breedSelect.addEventListener('change', ) // TODO: add second parameter
 
   /**
    * 3. Fork your own sandbox, creating a new one named "JavaScript Axios Lab."
@@ -108,6 +117,7 @@ initialLoad();
    *   by setting a default header with your API key so that you do not have to
    *   send it manually with all of your requests! You can also set a default base URL!
    */
+  // TODO: SAME AS PART ONE BUT WITH AXIOS
 
   // async function initialLoad() {
   //   try {
